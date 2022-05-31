@@ -121,15 +121,11 @@ Commit message Rule
 
 ![navmesh](./assets/navmesh.PNG)
 
-![navmesh](./assets/navmesh.gif)
-
 #### 5️⃣ 마이크 On / Off
 
 ![micTest](./assets/micTest.gif)
 
 #### 6️⃣ 비행 모드 & Fly Animation
-
-![flyAnimation](./assets/flyAnimation.gif)
 
 #### 7️⃣ 화면 공유
 
@@ -149,3 +145,8 @@ Commit message Rule
 | 이소영 | 팀원 (Frontend, 3D Modeling) | th42500        |
 | 한채은 | 팀원 (Frontend)              | onehousesilver |
 
+
+
+- README에 fly-animation.gif 는 파일 용량 관계로 올라가지 않았습니다.
+
+- assets에 glb 및 gltf 파일은 파일 용량 관계로 올라가지 않았습니다.
