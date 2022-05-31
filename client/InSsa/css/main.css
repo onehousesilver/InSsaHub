@@ -1,0 +1,112 @@
+/* 사용하는 글꼴 */
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 전체 글꼴 설정 및 기본 margin 삭제 */
+body {
+  font-family: "Pretendard-Regular";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#landing {
+  padding: 5vw;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.main .main-text .header-text {
+  font-size: 3vw;
+  font-weight: 700;
+}
+.main .main-text .description-text {
+  padding-top: 1vw;
+  width: 40vw;
+  height: 10vw;
+  font-size: 1.5vw;
+  line-height: 1.4;
+}
+.main .hall-img {
+  width: 35vw;
+  height: 20vw;
+  display: block;
+  border-radius: 1vw;
+}
+.main .main-text .start-btn {
+  width: 15vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  background-color: #7190b5;
+  color: #fff;
+}
+
+/* Footer */
+.middle {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 2vw;
+}
+.middle .dove-img,
+.middle .duck-img {
+  width: 21vw;
+  height: 21vw;
+  display: block;
+}
+.middle .share-img {
+  position: relative;
+  display: block;
+  width: 38vw;
+  border-radius: 1vw;
+  right: 2vw;
+}
+
+/* footer */
+.footer-form {
+  background-color: #7190b5;
+  display: flex;
+  justify-content: center;
+  padding: 1.5vw;
+  color: #fff;
+  line-height: 1.6;
+}
+/* footer-left */
+.footer-form .left-area {
+  width: 22vw;
+  align-self: flex-end;
+}
+.footer-form .left-area .footer-logo {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.footer-form .left-area .footer-developer {
+  font-size: 0.8vw;
+  font-weight: 700;
+}
+.footer-form .left-area .footer-sub-text {
+  font-size: 0.9vw;
+}
+
+/* footer-right */
+.footer-form .right-area {
+  width: 22vw;
+  align-self: flex-end;
+}
+
+.footer-form .right-area .tel,
+.footer-form .right-area .email,
+.footer-form .right-area .operating-time,
+.footer-form .right-area .footer-adress {
+  font-size: 0.8vw;
+}
